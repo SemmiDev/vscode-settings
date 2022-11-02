@@ -1,4 +1,4 @@
-**users.json**
+**settings.json**
 
 ```json
 {
