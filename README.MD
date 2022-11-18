@@ -9,29 +9,27 @@
     "editor.copyWithSyntaxHighlighting": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
-    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreview": true,
     "window.newWindowDimensions": "inherit",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
     "editor.snippetSuggestions": "top",
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": false,
     "workbench.editor.showTabs": false,
-    "editor.minimap.enabled": false,
     "editor.lineNumbers": "on",
     "breadcrumbs.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": true,
     "editor.matchBrackets": "never",
     "workbench.tips.enabled": false,
     "git.decorations.enabled": false,
     "workbench.startupEditor": "none",
-    "editor.lightbulb.enabled": false,
-    "editor.selectionHighlight": false,
+    "editor.lightbulb.enabled": true,
+    "editor.selectionHighlight": true,
     "editor.overviewRulerBorder": false,
     "editor.renderLineHighlight": "none",
     "editor.occurrencesHighlight": false,
@@ -58,6 +56,7 @@
     "editor.cursorBlinking": "solid",
     "editor.lineHeight": 40,
     "editor.suggestFontSize": 20,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
     "editor.suggestLineHeight": 28,
     "workbench.sideBar.location": "left",
     "editor.fontLigatures": true,
@@ -81,9 +80,20 @@
     "editor.inlineSuggest.enabled": true,
     "javascript.format.semicolons": "remove",
     "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "[go]": {
         "editor.defaultFormatter": "golang.go"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.stickyScroll.enabled": true,
+    "[sql]": {
+        "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
     }
 }
+
 ```
